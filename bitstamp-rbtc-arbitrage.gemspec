@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Jeffrey Wilcke"]
+  s.authors = ["Jeffrey Wilcke", "Hank Stoever"]
   s.date = "2014-07-12"
   s.description = "Ruby API for use with bitstamp."
-  s.email = "stygeo@gmail.com"
+  s.email = "hstove@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -56,7 +56,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.23"
-  s.summary = "Bitstamp Ruby API"
+  s.summary = "Bitstamp Ruby API - forked for rbtc-arbitrage"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
@@ -70,7 +70,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<tzinfo>, [">= 0"])
       s.add_development_dependency(%q<rspec>, [">= 0"])
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
     else
       s.add_dependency(%q<activemodel>, [">= 3.1"])
       s.add_dependency(%q<activesupport>, [">= 0"])
@@ -80,7 +80,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<tzinfo>, [">= 0"])
       s.add_dependency(%q<rspec>, [">= 0"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
-      s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
     end
   else
     s.add_dependency(%q<activemodel>, [">= 3.1"])
@@ -91,7 +91,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<tzinfo>, [">= 0"])
     s.add_dependency(%q<rspec>, [">= 0"])
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
-    s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
   end
 end
 
