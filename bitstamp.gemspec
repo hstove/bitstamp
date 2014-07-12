@@ -5,13 +5,13 @@
 # stub: bitstamp 0.4.0 ruby lib
 
 Gem::Specification.new do |s|
-  s.name = "bitstamp"
+  s.name = "bitstamp-rbtc-arbitrage"
   s.version = "0.4.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeffrey Wilcke"]
   s.date = "2014-03-09"
-  s.description = "Ruby API for use with bitstamp."
+  s.description = "Ruby API for use with bitstamp - forked for rbtc_arbitrage."
   s.email = "stygeo@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
