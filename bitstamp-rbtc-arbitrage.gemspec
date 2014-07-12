@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "bitstamp-rbtc-arbitrage.gemspec",
     "bitstamp.gemspec",
     "lib/bitstamp.rb",
     "lib/bitstamp/collection.rb",
